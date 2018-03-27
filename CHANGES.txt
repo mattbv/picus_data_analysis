@@ -1,1 +1,8 @@
-Added pit_parser, .pit example files and general documentation.
+v0.2.0
+------
+- Major refactoring of the code to include support for raw data.
+
+
+v0.1.0
+------
+- Added pit_parser, .pit example files and general documentation.
