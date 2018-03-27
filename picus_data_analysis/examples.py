@@ -57,7 +57,7 @@ def raw_data_velocity(pit_file):
                                                           coords)
 
     # Calculates maximum sonic velocity from all interpolated data.
-    maxVelocity = np.nanmean(velocityInterp, axis=2)
+    maxVelocity = np.nanmax(velocityInterp, axis=2)
 
     # Obtain image data as points (x, y, pixel_value). This is just going
     # to be used as intermediate information for plotting.
